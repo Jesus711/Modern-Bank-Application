@@ -126,15 +126,18 @@
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: -moz-linear-gradient(90deg, rgba(188, 165, 255, 0) 0%, rgba(33, 77, 118, 1) 100%);
   filter: blur(123px);
 }
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  background: -moz-linear-gradient(90deg, rgba(244, 196, 243, 0.1) 0%, rgba(244, 196, 243, 0.5) 100%);
   filter: blur(900px);
 }
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
+  background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.25) 100%);
   filter: blur(750px);
 }
