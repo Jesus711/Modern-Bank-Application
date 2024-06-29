@@ -5,9 +5,9 @@ const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src={bill} alt="billing"  className="w-full h-full relative z-[5]"/>
-      {/* Gradients */}
-      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-      <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
+      {/* Gradients adjusted left position from 1/2 to 1/4 */}
+      <div className="absolute z-[3] -left-1/4 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+      <div className="absolute z-[0] -left-1/4 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
     </div>
 
     <div className={layout.sectionInfo}>
